@@ -9,9 +9,7 @@
 .sfondo-azzurrino{
     background-color:aquamarine
 }
-.sfondo-verdino{
-    background-color: aquamarine;
-}
+
 .content-head{
     height: 50px;
     background-color: pink;
@@ -27,4 +25,16 @@
 .content{
     height: 100px;
     background-color: brown;
+}
+.content-1{
+    height: 100px;
+    background-color: beige;
+}
+.content-footer{
+    height: 100px;
+    background-color: green;
+}
+.sfondo-grigio-scuro{
+    
+    background-color: darkgray;
 }
