@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+.sfondo-grigio{
+    background-color:grey
+}
+.sfondo-azzurrino{
+    background-color:aquamarine
+}
+.sfondo-verdino{
+    background-color: aquamarine;
+}
+.content-head{
+    height: 50px;
+    background-color: pink;
+}
+.content-12{
+    height: 100px;
+    background-color: red
+}
+.content-img{
+    height:100px;
+    background-color: blue;
+}
+.content{
+    height: 100px;
+    background-color: brown;
+}
