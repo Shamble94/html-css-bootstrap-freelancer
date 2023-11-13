@@ -28,14 +28,6 @@ header{
     margin: 50px 0;
 }
 
-.content-1{
-    height: 100px;
-    background-color: beige;
-}
-.content-footer{
-    height: 100px;
-    background-color: green;
-}
 .sfondo-grigio-scuro{
     
     background-color: darkgray;
@@ -97,17 +89,17 @@ h1 {
     background: black;
 }
 
-  .content .star{
+#form .star{
     color: black
-  }
-  #about .star{
-    color: white
-  }
-.padding-left{
-    padding-left: 50px;
 }
-.padding-right{
-    padding-right: 50px;
+#about .star{
+    color: white 
+}
+.padding{
+    padding: 0px 50px;
+}
+.padding-{
+    padding: 0xp 50px;
 }
 .icon{
     border-radius: 50%;
