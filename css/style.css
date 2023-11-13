@@ -3,38 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Tag Header */
 header{
     display:flex;
     align-items: center;
     background-color:#1abc9c;
 }
-.sfondo-grigio{
-    background-color:#2c3e50;
-    width: 100%;
-}
-#start-bootstrap{
-    background-color:#1abc9c;
-}
-#about{
-    background-color:#1abc9c;
-    margin: 50px 0;
-
-}
- .sfondo-azzurrino{
-    background-color:#1abc9c;
-}
-.margin50{
-    margin: 50px 0;
-}
+/* Colore sfondo */
 .sfondo-grigio{
     background-color: #3a546d;
 }
 .sfondo-grigio-scuro{
     background-color: #2c3e50;
+    width: 100%;
 }
 
-h1 {
+/* Sezione start */
+#start-bootstrap{
+    background-color:#1abc9c;
+}
+
+/* Sezione about */
+#about{
+    background-color:#1abc9c;
+    margin: 50px 0;
+}
+
+
+/* Stella e righe ai suoi lati */
+h1{
     font-family: sans-serif;
     margin: 10px auto;
     text-align: center;
@@ -53,7 +50,7 @@ h1 {
     top: 50%;
     position: absolute;
 }
-  h1:after {
+h1:after {
     content: "";
     display: block;
     width: 20%;
@@ -63,16 +60,20 @@ h1 {
     top: 50%;
     position: absolute;
 }
-  
+
+/* Colore stella */ 
 .star{
     color: #fff
 }
 
+/* Dimensione immagine del ragazzo */
+.logo{
+    width: 200px;
+}
+
+/* Selettori avanzati per cambio colore stella e righe */
 .content-img .star {
     color: black;    
-}
-.logo{
-    width: 50%;
 }
 .content-img h1::before{
     background: black;
@@ -96,31 +97,46 @@ h1 {
 #about .star{
     color: white 
 }
+
+/* padding destra e sinistra */
 .padding{
     padding: 0px 50px;
 }
 
+/* Stile icone fontawesome */
 .icon{
     border-radius: 50%;
     border: 1px solid white;
     padding: 10px;
-    font-size: 8px
+    font-size: 10px
 }
 
+/* Colore testo footer */
 .text-green{
     color: #1abc9c
 }
+
+/* Stile lista sezione start */
 li{
-    list-style-type:"-";
+    list-style-type:" - ";
 }
+
+/* Rimozione bordo input nella sezione form */
 .remove-border{
     border:0;
-
- 
 }
+
+/* Attribuzione bordo inferiore alle input nella sezione form */
 .bordo-bottom{
     border-bottom: 1px solid black;
 }
+
+/* Annullamento padding dato alle ul da bootstrap */
 ul{
     padding: 0;
+}
+
+/* Hover bottone sezione about */
+#about .btn:hover{
+    background-color: green;
 }
